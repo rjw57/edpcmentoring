@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'', include('ucamwebauth.urls')),
     url(r'^matching/', include('matching.urls')),
     url(r'^notifications/', include('pinax.notifications.urls')),
+    url(r'^donotuse/', include('devui.urls')),
     url(r'', include('frontend.urls')),
 ]
 
