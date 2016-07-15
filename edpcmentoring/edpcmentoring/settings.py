@@ -56,6 +56,7 @@ INSTALLED_APPS = [
 
     'autonag',
     'frontend',
+    'devui',
 ]
 
 MIDDLEWARE_CLASSES = [
