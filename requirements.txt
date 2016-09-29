@@ -1,5 +1,6 @@
 # Requirements for running in production. See dev-requirements.txt for
 # other requirements.
+coreapi
 dj-database-url==0.4.0
 django-annoying
 django-crispy-forms
@@ -7,10 +8,13 @@ django-debug-toolbar
 django-email-log
 django-extensions
 django-filter
+django-guardian
 django-tables2
 django-ucamwebauth
 django<1.10
+djangorestframework
 future
+markdown
 requests
 whitenoise
 
