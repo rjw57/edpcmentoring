@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'', include('ucamwebauth.urls')),
     url(r'^matching/', include('matching.urls')),
     url(r'^notifications/', include('pinax.notifications.urls')),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'', include('frontend.urls')),
 ]
 

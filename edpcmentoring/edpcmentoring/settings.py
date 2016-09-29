@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'email_log',
     'ucamwebauth',
     'pinax.notifications',
+    'rest_framework',
 
     'cuedmembers',
     'matching',
